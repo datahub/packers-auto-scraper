@@ -75,4 +75,4 @@ GB_games_summary <- GB_games %>% select(
 )
 
 #rename with latest date scraped/years
-write_csv(GB_games_summary, "gb_games_summary_20230925.csv")
+write_csv(GB_games_summary, "gb_games_summary.csv")
