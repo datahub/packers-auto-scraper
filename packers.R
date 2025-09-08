@@ -1,7 +1,7 @@
 library(nflfastR)
 library(tidyverse)
 
-year <- 2024
+year <- 2025
 pbp <- load_pbp(year)
 
 # clean all season games for Green Bay home and away
