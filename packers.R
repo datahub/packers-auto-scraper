@@ -1,7 +1,8 @@
 library(nflfastR)
 library(tidyverse)
 
-year <- 2025
+year <- as.numeric(format(Sys.Date(), "%Y"))
+print(year)
 pbp <- load_pbp(year)
 
 # clean all season games for Green Bay home and away
